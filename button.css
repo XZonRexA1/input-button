@@ -1,0 +1,23 @@
+#container > form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 9px;
+}
+
+.form > input {
+  border: 0;
+  padding: 10px 20px;
+  margin: 0 25px;
+  border-radius: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  opacity: 80%;
+  font-weight: bold;
+  background-color: #222;
+  color: grey;
+  transform: all ease 0.5s;
+}
+
+.form:hover {
+  margin: 10px;
+}
